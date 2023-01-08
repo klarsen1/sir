@@ -48,6 +48,6 @@ churn_rate=.1
 b <- 1.4*churn_rate/tam
 run_sir(time_values=seq(0, 36), tam=1000000, cohort_size=1000, beta=b, gamma=churn_rate, lim=c(0,4500))[[2]] 
 
-### Same beta as above, but churn=15%
+### Same beta as above, but churn=14%
 churn_rate <- .14
 run_sir(time_values=seq(0, 36), tam=1000000, cohort_size=1000, beta=b, gamma=churn_rate, lim=c(0,1500))[[2]] 
